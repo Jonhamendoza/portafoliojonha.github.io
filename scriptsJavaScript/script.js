@@ -20,3 +20,12 @@ function validarFormulario(evento){
     this.submit();
 }
 
+let anchoPantalla = document.documentElement.scrollWidth;
+
+document.addEventListener("DOMContentLoaded",function (){
+    if(anchoPantalla>992){
+        document.getElementById('tarjeta-presentacion').style.display='';
+    } else{
+        document.getElementById('tarjeta-presentacion').style.display="none";
+    }
+});

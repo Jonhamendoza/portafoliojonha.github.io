@@ -29,3 +29,7 @@ document.addEventListener("DOMContentLoaded",function (){
         document.getElementById('tarjeta-presentacion').style.display="none";
     }
 });
+const marcaDeAgua=document.getElementById("marcadeagua");
+let fecha= new Date();
+let anio= fecha.getFullYear();
+marcaDeAgua.innerText="Jona Mendoza "+anio+" Mi Pag.";

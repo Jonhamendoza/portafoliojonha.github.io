@@ -51,8 +51,9 @@ a{
     display: inline;
 }
 #formularioContacto{
-    margin-left: 30%;
-    background-color: transparent;
+    background-color: #f7f4f4;
+    opacity: 0.8;
+    border-radius: 2%;
 }
 #contactoIconos{
     background-color: transparent;
@@ -64,4 +65,24 @@ a{
     background-color: transparent;
     margin: auto;
 
+}
+footer{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    background-color: #2c2c2c;
+    bottom: 0;
+    padding-bottom: 0%;
+    
+}
+footer p{
+    float: left;
+    margin-right: 1em;
+    
+}
+footer p svg{
+    width: 1.4em;
+}
+#marcadeagua{
+    color: #f7f4f4;
 }
